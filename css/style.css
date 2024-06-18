@@ -469,6 +469,15 @@ body {
   /* Fallback for when there is no custom background color defined. */
 }
 
+.btn-login {
+  color: #66e0c9 !important; /* Forzar el color */
+  font-weight: 200 !important; /* Reducir el grosor de la tipografía */
+}
+
+.btn-login:hover {
+  color: #442670 !important; /* Cambiar a blanco al pasar el cursor */
+}
+
 hr {
   background-color: #d1d1d1;
   border: 0;
