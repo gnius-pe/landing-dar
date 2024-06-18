@@ -478,6 +478,19 @@ body {
   color: #442670 !important; /* Cambiar a blanco al pasar el cursor */
 }
 
+/* Estilo para los enlaces dentro del párrafo */
+.enlace-asdmr a {
+  color: inherit; /* Mantiene el color original del texto */
+  text-decoration: underline; /* Subraya el enlace para distinguirlo */
+  transition: color 0.3s; /* Suaviza la transición del color */
+}
+
+/* Cambia el color del enlace al pasar el cursor */
+.enlace-asdmr a:hover {
+  color: #66e0c9; /* Usa la clase color-primary */
+  text-decoration: underline; /* Mantiene el subrayado al pasar el cursor */
+}
+
 hr {
   background-color: #d1d1d1;
   border: 0;
