@@ -235,4 +235,15 @@ $(document).ready(function () {
   // Asignar la versión de la aplicación
   const appVersion = "0.0.1"; // Puedes cambiar esto según tu versión actual
   $("#appVersion").text(appVersion);
+
+  // Define the YouTube link variable
+  var youtubeLink = "https://www.youtube.com/channel/UCo_7sF_MNaQsjCq4Z0BlJew";
+  // Get the YouTube anchor element by its ID and set the href attribute
+  document.getElementById("youtube-link").href = youtubeLink;
+
+  // Define the email link variable
+  var emailLink = "mailto:infor@dar.org";
+  // Get the email anchor element by its ID and set the href attribute
+  document.getElementById("email-link").href = emailLink;
+
 });
