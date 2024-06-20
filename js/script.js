@@ -246,4 +246,20 @@ $(document).ready(function () {
   // Get the email anchor element by its ID and set the href attribute
   document.getElementById("email-link").href = emailLink;
 
+  // Load the Iframe Player API code asynchronously.
+  function onYouTubeIframeAPIReady() {
+    new YT.Player("video-placeholder", {
+      videoId: "Ir53W7YpQz4",
+      events: {
+        onReady: onPlayerReady,
+      },
+    });
+  }
+
+  function onPlayerReady(event) {
+    var playButton = document.getElementById("play-button");
+    playButton.addEventListener("click", function () {
+      event.target.playVideo();
+    });
+  }
 });
