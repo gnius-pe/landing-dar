@@ -943,6 +943,22 @@ h6 {
   font-size: 13px;
 }
 
+.centered-row {
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.row-equal .col {
+  flex: 0 0 25%; /* For equal columns with 4 persons in the row */
+  max-width: 25%;
+}
+
+.centered-row .col {
+  flex: 0 0 12.5%; /* Adjusted width for centered row */
+  max-width: 12.5%;
+}
+
 strong,
 b {
   font-weight: 700;

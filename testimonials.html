@@ -166,8 +166,21 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown dmenu">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="index.html"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    INICIO
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -177,17 +190,20 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    HOME
+                    ACERCA
                   </a>
                   <div
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                    <a class="dropdown-item" href="index.html">Home 1</a>
-                    <a class="dropdown-item" href="index-2.html">Home 2</a>
-                    <a class="dropdown-item" href="index-3.html">Home 3</a>
-                    <a class="dropdown-item" href="index-4.html"
-                      >Home 4 - Onepage</a
+                    <a class="dropdown-item" href="about.html"
+                      >Sobre nosotros</a
+                    >
+                    <a class="dropdown-item" href="faq.html"
+                      >Preguntas frecuentes</a
+                    >
+                    <a class="dropdown-item" href="our-team.html"
+                      >Nuestro equipo</a
                     >
                   </div>
                 </li>
@@ -201,40 +217,21 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    ABOUT
+                    MISIONES
                   </a>
                   <div
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                    <a class="dropdown-item" href="about.html">About Us</a>
-                    <a class="dropdown-item" href="faq.html">FAQ</a>
-                    <a class="dropdown-item" href="our-team.html">Our Team</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    CAUSES
-                  </a>
-                  <div
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <a class="dropdown-item" href="cause.html">Causes</a>
                     <a class="dropdown-item" href="cause-single.html"
-                      >Single Causes</a
+                      >Próxima misión</a
+                    >
+                    <a class="dropdown-item" href="cause.html"
+                      >Todas nuestras misiones</a
                     >
                   </div>
                 </li>
-                <li class="nav-item dropdown active">
+                <!-- <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -244,7 +241,7 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    PAGES
+                    DAR
                   </a>
                   <div
                     class="dropdown-menu"
@@ -263,6 +260,39 @@
                       >News Detail</a
                     >
                   </div>
+                </li> -->
+                <li class="nav-item dropdown active">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    CONTENIDO
+                  </a>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item" href="404.html"
+                      >Nuestros Servicios</a
+                    >
+                    <a class="dropdown-item" href="gallery.html"
+                      >Galeria de fotos</a
+                    >
+                    <a class="dropdown-item" href="testimonials.html"
+                      >Testimonios</a
+                    >
+                    <a class="dropdown-item" href="news-grid.html"
+                      >Certificados</a
+                    >
+                    <a class="dropdown-item" href="news-sidebar.html"
+                      >Brochure</a
+                    >
+                  </div>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -274,20 +304,35 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    EVENTS
+                    ACTIVIDADES
                   </a>
                   <div
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                    <a class="dropdown-item" href="events.html">Events</a>
+                    <a class="dropdown-item" href="events.html"
+                      >Eventos pro fondos</a
+                    >
                     <a class="dropdown-item" href="events-single.html"
-                      >Events Detail</a
+                      >Nuevos proyectos</a
                     >
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">CONTACT US</a>
+                  <a class="nav-link" href="events.html">SER VOLUNTARIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">CONTACTOS</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link btn-login"
+                    href="http://app.dar.reformaperu.org/login"
+                  >
+                    <i class="fas fa-user-plus"></i> Inicio de Sesión
+                  </a>
                 </li>
               </ul>
             </div>
@@ -304,14 +349,14 @@
     >
       <div class="content-wrap pos-relative">
         <div class="d-flex justify-content-center bd-highlight mb-3">
-          <div class="title-page">Testimonials</div>
+          <div class="title-page">Testimonios</div>
         </div>
         <div class="d-flex justify-content-center bd-highlight mb-3">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
               <li class="breadcrumb-item active" aria-current="page">
-                Testimonials
+                Testimonios
               </li>
             </ol>
           </nav>
@@ -335,10 +380,10 @@
                 </div>
                 <div class="body">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry orem Ipsum has been. Mauris ornare
-                    tortor in eleifend blanditullam ut ligula et neque. Nulla
-                    interdum dapibus erat nec elementum.
+                    Participar en la misión fue increíble. Atender a más de 300
+                    personas y ver el impacto positivo fue indescriptible. Me
+                    siento bendecida de haber sido parte de un equipo tan unido
+                    y amoroso.
                   </p>
                   <div class="title">John Doel</div>
                   <div class="company">Businessman</div>
@@ -357,10 +402,10 @@
                 </div>
                 <div class="body">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry orem Ipsum has been. Mauris ornare
-                    tortor in eleifend blanditullam ut ligula et neque. Nulla
-                    interdum dapibus erat nec elementum.
+                    La misión fue transformadora. Trabajar en odontología y
+                    medicina interna me permitió ayudar de manera significativa.
+                    La gratitud de las personas y el espíritu de colaboración
+                    fueron inspiradores.
                   </p>
                   <div class="title">Raisa Doel</div>
                   <div class="company">House Keeper</div>
@@ -379,10 +424,9 @@
                 </div>
                 <div class="body">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry orem Ipsum has been. Mauris ornare
-                    tortor in eleifend blanditullam ut ligula et neque. Nulla
-                    interdum dapibus erat nec elementum.
+                    Ser parte de la misión mostró el poder del trabajo en equipo
+                    y la solidaridad. Cada aspecto fue manejado con amor y
+                    profesionalismo. Estoy emocionada por volver a participar.
                   </p>
                   <div class="title">Josh Doel</div>
                   <div class="company">Contractor</div>
@@ -401,10 +445,10 @@
                 </div>
                 <div class="body">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry orem Ipsum has been. Mauris ornare
-                    tortor in eleifend blanditullam ut ligula et neque. Nulla
-                    interdum dapibus erat nec elementum.
+                    Unirme a la misión fue una excelente decisión. Ver cómo
+                    nuestras acciones, desde fisioterapia hasta nutrición,
+                    transformaron vidas fue gratificante. La unidad y el
+                    esfuerzo colectivo demostraron el amor de Dios en acción.
                   </p>
                   <div class="title">Sasha Doel</div>
                   <div class="company">Freelance</div>
