@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>NGOO - Charity, Non-profit, and Fundraising HTML Template</title>
+    <title>DAR - Acerca de nosotros</title>
     <meta
       name="description"
       content="NGOO is a clean, modern, and fully responsive HTML Template. it is designed for charity, non-profit, fundraising, donation, volunteer, businesses or any type of person or business who wants to showcase their work, services and professional way."
@@ -82,6 +82,7 @@
 
     <!-- HEADER -->
     <div class="header header-1">
+      <!-- TOPBAR -->
       <!-- TOPBAR -->
       <div class="topbar">
         <div class="container">
@@ -286,7 +287,7 @@
                     <a class="dropdown-item" href="testimonials.html"
                       >Testimonios</a
                     >
-                    <a class="dropdown-item" href="news-grid.html"
+                    <a class="dropdown-item" href="certificados.html"
                       >Certificados</a
                     >
                     <a class="dropdown-item" href="news-sidebar.html"
@@ -345,18 +346,18 @@
     <!-- BANNER -->
     <div
       class="section banner-page"
-      data-background="images/dummy-img-1920x300.jpg"
+      data-background="images/sobre_nosotros_portada.png"
     >
       <div class="content-wrap pos-relative">
         <div class="d-flex justify-content-center bd-highlight mb-3">
-          <div class="title-page">Testimonios</div>
+          <div class="title-page">Certificados</div>
         </div>
         <div class="d-flex justify-content-center bd-highlight mb-3">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
               <li class="breadcrumb-item active" aria-current="page">
-                Testimonios
+                Certificado
               </li>
             </ol>
           </nav>
@@ -364,150 +365,196 @@
       </div>
     </div>
 
-    <!-- OUR GALLERY -->
+    <!-- CONTENT -->
     <div class="section">
       <div class="content-wrap">
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-md-6">
-              <div class="testimonial-1">
-                <div class="media">
-                  <img
-                    src="images/testimonios/testimonio-01.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="body">
-                  <p>
-                    Participar en la misión fue increíble. Atender a más de 300
-                    personas y ver el impacto positivo fue indescriptible. Me
-                    siento bendecida de haber sido parte de un equipo tan unido
-                    y amoroso.
-                  </p>
-                  <div class="title">John Doel</div>
-                  <div class="company">Voluntario</div>
-                </div>
+              <h2 class="section-heading">
+                Consulta de <span>Certificados</span> de Misiones participadas
+              </h2>
+
+              <p>
+                En esta sección, podrás consultar los certificados de
+                participación en nuestras misiones humanitarias. Solo necesitas
+                ingresar tu número de DNI en el campo proporcionado y el sistema
+                mostrará automáticamente los certificados correspondientes a las
+                misiones a las que has asistido.
+              </p>
+
+              <div class="card-body">
+                <label for="dni">Ingrese su DNI:</label>
+                <form id="certificateForm" class="form-inline">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="dni"
+                      placeholder="Número de DNI"
+                      required
+                    />
+                  </div>
+                  <a href="index.html" class="btn btn-primary">CONSULTAR</a>
+                </form>
+                <div id="certificateResult" class="mt-4"></div>
               </div>
             </div>
 
             <div class="col-sm-6 col-md-6">
-              <div class="testimonial-1">
-                <div class="media">
-                  <img
-                    src="images/testimonios/testimonio-02.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
+              <img
+                src="images/certificado-DAR.jpg"
+                alt=""
+                class="img-fluid img-border"
+              />
+            </div>
+          </div>
+
+          <div class="spacer-70"></div>
+
+          <div class="row">
+            <div class="col-sm-3 col-md-3">
+              <div class="rs-icon-funfact style-2">
+                <div class="icon">
+                  <i class="fa fa-file-text-o"></i>
                 </div>
-                <div class="body">
-                  <p>
-                    La misión fue transformadora. Trabajar en odontología y
-                    medicina interna me permitió ayudar de manera significativa.
-                    La gratitud de las personas y el espíritu de colaboración
-                    fueron inspiradores.
-                  </p>
-                  <div class="title">Raisa Doel</div>
-                  <div class="company">Voluntario</div>
+                <div class="body-content">
+                  <h2>+500</h2>
+                  <p class="uk18">Atenciones</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-6 col-md-6">
-              <div class="testimonial-1">
-                <div class="media">
-                  <img
-                    src="images/testimonios/testimonio-03.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
+            <div class="col-sm-3 col-md-3">
+              <div class="rs-icon-funfact style-2">
+                <div class="icon">
+                  <i class="fa fa-users"></i>
                 </div>
-                <div class="body">
-                  <p>
-                    Ser parte de la misión mostró el poder del trabajo en equipo
-                    y la solidaridad. Cada aspecto fue manejado con amor y
-                    profesionalismo. Estoy emocionada por volver a participar.
-                  </p>
-                  <div class="title">Josh Doel</div>
-                  <div class="company">Voluntario</div>
+                <div class="body-content">
+                  <h2>+15</h2>
+                  <p class="uk18">Áreas profesionales</p>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-6 col-md-6">
-              <div class="testimonial-1">
-                <div class="media">
-                  <img
-                    src="images/testimonios/testimonio-calua.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
+            <div class="col-sm-3 col-md-3">
+              <div class="rs-icon-funfact style-2">
+                <div class="icon">
+                  <i class="fa fa-trophy"></i>
                 </div>
-                <div class="body">
-                  <p>
-                    Unirme a la misión fue una excelente decisión. Ver cómo
-                    nuestras acciones, desde fisioterapia hasta nutrición,
-                    transformaron vidas fue gratificante. La unidad y el
-                    esfuerzo colectivo demostraron el amor de Dios en acción.
-                  </p>
-                  <div class="title">Carlos Calua</div>
-                  <div class="company">Oftamologo</div>
+                <div class="body-content">
+                  <h2>+3</h2>
+                  <p class="uk18">Misiones realizadas</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+              <div class="rs-icon-funfact style-2">
+                <div class="icon">
+                  <i class="fa fa-male"></i>
+                </div>
+                <div class="body-content">
+                  <h2>+220</h2>
+                  <p class="uk18">Voluntarios</p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <div class="spacer-50"></div>
+    <div class="section cta" data-background="images/dummy-img-1920x900-3.png">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <div class="cta-info">
+                <h1 class="section-heading light no-after">
+                  <span>Ayudamos a muchas</span> personas
+                </h1>
+                <h3 class="color-primary">
+                  Quiero convertirme en un voluntario
+                </h3>
 
-          <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-10 offset-md-1">
-              <div id="testimonial">
-                <div class="item">
-                  <div class="rs-box-testimony">
-                    <div class="quote-box">
-                      <blockquote>
-                        Formar parte de la misión me mostró el verdadero poder
-                        de la comunidad. La dedicación de los voluntarios y el
-                        apoyo de los donantes hicieron posible brindar una
-                        atención integral y amorosa. Fue una experiencia que me
-                        llenó de esperanza.
-                      </blockquote>
-                      <div class="media">
-                        <img
-                          src="images/testimonios/testimonio-04.jpg"
-                          alt=""
-                          class="rounded-circle"
-                        />
-                      </div>
-                      <p class="quote-name">
-                        Anaí Salazar <span>Voluntaria</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="rs-box-testimony">
-                    <div class="quote-box">
-                      <blockquote>
-                        Participar en la misión fue una experiencia inolvidable.
-                        Ayudar a tantas personas en necesidad y ver sus sonrisas
-                        fue muy gratificante. Estoy ansiosa por volver a
-                        participar el próximo año.
-                      </blockquote>
-                      <div class="media">
-                        <img
-                          src="images/testimonios/testimonio-jimena.jpg"
-                          alt=""
-                          class="rounded-circle"
-                        />
-                      </div>
-                      <p class="quote-name">
-                        Jimena Gutierrez <span>Voluntaria</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <div class="spacer-10"></div>
+                <p>
+                  Descubre nuestras próximas misiones y regístrate para
+                  participar...
+                </p>
+
+                <a href="#" class="btn btn-light margin-btn">LEER MÁS</a>
+                <a href="events.html" class="btn btn-primary margin-btn"
+                  >REGÍSTRATE EN UNA MISIÓN</a
+                >
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OUR PARTNERS -->
+    <div class="section">
+      <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <h2 class="section-heading center">
+                Nuestros <span>Voluntarios</span>
+              </h2>
+              <p class="subheading text-center">Tú puedes ser el proximo</p>
+            </div>
+          </div>
+          <div class="row gutter-5">
+            <div class="col-6 col-md-2">
+              <a href="#"
+                ><img
+                  src="images/dummy-img-200x125.jpg"
+                  alt=""
+                  class="img-fluid img-border"
+              /></a>
+            </div>
+            <div class="col-6 col-md-2">
+              <a href="#"
+                ><img
+                  src="images/nuestro_voluntario02.png"
+                  alt=""
+                  class="img-fluid img-border"
+              /></a>
+            </div>
+            <div class="col-6 col-md-2">
+              <a href="#"
+                ><img
+                  src="images/nuestro_voluntario03.png"
+                  alt=""
+                  class="img-fluid img-border"
+              /></a>
+            </div>
+            <div class="col-6 col-md-2">
+              <a href="#"
+                ><img
+                  src="images/nuestro_voluntario04.png"
+                  alt=""
+                  class="img-fluid img-border"
+              /></a>
+            </div>
+            <div class="col-6 col-md-2">
+              <a href="#"
+                ><img
+                  src="images/nuestro_voluntario05.png"
+                  alt=""
+                  class="img-fluid img-border"
+              /></a>
+            </div>
+            <div class="col-6 col-md-2">
+              <a href="#"
+                ><img
+                  src="images/nuestro_voluntario06.png"
+                  alt=""
+                  class="img-fluid img-border"
+              /></a>
             </div>
           </div>
         </div>
@@ -688,7 +735,6 @@
         </div>
       </div>
     </div>
-
     <!-- JS VENDOR -->
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
