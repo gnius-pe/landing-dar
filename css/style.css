@@ -1128,6 +1128,15 @@ ul.circle li:before {
   margin-bottom: 100px;
 }
 
+.espacio-logo-mision {
+  background-image: url("../images/misiones-logo/tingua.png"); /* Ruta a tu imagen */
+  background-size: contain; /* Ajusta el tamaño de la imagen para que se ajuste al contenedor sin distorsionarse */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen en el contenedor */
+  height: 200px; /* Ajusta la altura del contenedor según sea necesario */
+  margin-bottom: 30px; /* Espacio inferior */
+}
+
 .spacer-10 {
   height: 10px;
 }
