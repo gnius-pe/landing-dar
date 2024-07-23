@@ -233,7 +233,7 @@ $(document).ready(function () {
   $("#currentYear").text(currentYear);
 
   // Asignar la versión de la aplicación
-  const appVersion = "0.0.1"; // Puedes cambiar esto según tu versión actual
+  const appVersion = "1.1.2"; // Puedes cambiar esto según tu versión actual
   $("#appVersion").text(appVersion);
 
   // Define the YouTube link variable
