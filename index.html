@@ -79,14 +79,65 @@
     <link rel="stylesheet" type="text/css" href="css/vendor/animate.min.css" />
 
     <!-- ==============================================
-	Custom Stylesheet
-	=============================================== -->
+	    Custom Stylesheet
+	  =============================================== -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <script src="js/vendor/modernizr.min.js"></script>
+
+    <!-- ==============================================
+	    Link whasap
+	  =============================================== -->
+    <link rel="stylesheet" href="./css/whats.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/whats2.css" />
   </head>
 
   <body>
+    <!-- Botón Whasap -->
+    <div>
+      <div class="nav-bottom">
+        <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"
+        />
+        <div class="popup-whatsapp fadeIn">
+          <div class="content-whatsapp -top">
+            <button type="button" class="closePopup">
+              <i class="material-icons icon-font-color">close</i>
+            </button>
+
+            <p>
+              <img src="images/secretary.png" width="50" /> Hola, ¿en que
+              podemos ayudarle?
+            </p>
+          </div>
+          <div class="content-whatsapp -bottom">
+            <input
+              class="whats-input"
+              id="whats-in"
+              type="text"
+              placeholder="Enviar mensaje..."
+            />
+
+            <button class="send-msPopup" id="send-btn" type="button">
+              <i class="material-icons icon-font-color--black">send</i>
+            </button>
+          </div>
+        </div>
+        <button type="button" id="whats-openPopup" class="whatsapp-button">
+          <div class="float">
+            <i class="fa fa-whatsapp my-float"></i>
+          </div>
+        </button>
+        <div class="circle-anime"></div>
+      </div>
+      <script src="./js/script-whasap.js"></script>
+    </div>
+
     <!-- LOAD PAGE -->
     <div class="animationload">
       <div class="loader"></div>
