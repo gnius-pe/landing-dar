@@ -1129,12 +1129,12 @@ ul.circle li:before {
 }
 
 .espacio-logo-mision {
-  background-image: url("../images/misiones-logo/tingua.png"); /* Ruta a tu imagen */
+  background-image: url("../images/misiones-logo/ancon.png"); /* Ruta a tu imagen */
   background-size: contain; /* Ajusta el tamaño de la imagen para que se ajuste al contenedor sin distorsionarse */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-position: center; /* Centra la imagen en el contenedor */
-  height: 200px; /* Ajusta la altura del contenedor según sea necesario */
-  margin-bottom: 30px; /* Espacio inferior */
+  height: 250px; /* Ajusta la altura del contenedor según sea necesario */
+  margin-bottom: -20px; /* Espacio inferior */
 }
 
 .spacer-10 {
@@ -1628,6 +1628,16 @@ Back To Top Section
 }
 .btn-secondary:hover {
   background-color: #292929;
+  color: #ffffff;
+}
+
+.btn-green {
+  background-color: #66e0c9;
+  color: #071538;
+  font-weight: bold;
+}
+.btn-green:hover {
+  background-color: #071538;
   color: #ffffff;
 }
 
